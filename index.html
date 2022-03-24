@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tarefa do IMC</title>
+</head>
+<body>
+    <div id="divCentral">
+        <div>
+            <h1>Calculadora de IMC</h1>
+        </div>
+        <div>
+            Peso em kg: <input type="number" id="peso">
+        </div>
+        <div>
+            altura em cm: <input type="number" id="altura">
+        </div>
+        
+        <div id="output">
+
+        </div>
+    <table>
+        <tr>
+            <th>IMC</th>
+            <th>Classificação</th>
+        </tr>
+        <tr id="t1">
+            <td>Abaixo de 17</td>
+            <td>Muito abaixo do peso</td>
+        </tr>
+
+        <tr id="t2">
+            <td>Entre 17 e 18,49</td>
+            <td>Abaixo do peso</td>
+        </tr>
+        <tr id="t3">
+            <td>Entre 18,5 e 24,99</td>
+            <td>Peso normal</td>
+        </tr>
+        <tr id="t4">
+            <td>Entre 25 e 29,99</td>
+            <td>Acima do peso</td>
+        </tr>
+        <tr id="t5">
+            <td>Entre 30 e 34,99</td>
+            <td>Obesidade I</td>
+        </tr>
+        <tr id="t6">
+            <td>Entre 35 e 39,99</td>
+            <td>Obesidade II (severa)</td>
+        </tr>
+        <tr id="t7">
+            <td>Acima de 40</td>
+            <td>Obesidade III (mórbida)</td>
+        </tr>
+    </table>
+        <div>
+            <button type="submit" onclick="calcularIMC()">Calcular</button>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>

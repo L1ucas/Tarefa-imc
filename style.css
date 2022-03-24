@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#divCentral {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+h1 {
+    margin-top: 5px;
+    line-height: 10px;
+}
+
+input {
+    height: 50 px;
+    width: auto;
+}
+
+button {
+    width: 100 px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#t1{
+    color: grey;
+}
+
+#t2{
+    color: grey;
+}
+
+#t3{
+    color: grey;
+}
+
+#t4{
+    color: grey;
+}
+
+#t5{
+    color: grey;
+}
+
+#t6{
+    color: grey;
+}
+
+#t7{
+    color: grey;
+}
